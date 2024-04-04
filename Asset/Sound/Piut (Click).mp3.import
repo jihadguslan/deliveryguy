@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dyi46y4guox22"
+path="res://.godot/imported/Piut (Click).mp3-bd2170e3a6aa08da8f3c0357a511870a.mp3str"
+
+[deps]
+
+source_file="res://Asset/Sound/Piut (Click).mp3"
+dest_files=["res://.godot/imported/Piut (Click).mp3-bd2170e3a6aa08da8f3c0357a511870a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
