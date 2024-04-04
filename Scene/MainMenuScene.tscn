@@ -1,0 +1,152 @@
+[gd_scene load_steps=8 format=3 uid="uid://cbef3b577hfx4"]
+
+[ext_resource type="Script" path="res://Scene/MainMenuScene.gd" id="1_7caq5"]
+[ext_resource type="FontFile" uid="uid://bkcr7kulhnqyb" path="res://Super Boys.ttf" id="1_gqqvf"]
+[ext_resource type="Texture2D" uid="uid://ck2fkqljis406" path="res://Asset/Background Layer 1(2).png" id="2_k70wr"]
+[ext_resource type="Texture2D" uid="uid://cl47kvs34f3dm" path="res://Asset/HTP-01.png" id="4_58p5x"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dg4oe"]
+font = ExtResource("1_gqqvf")
+font_size = 65
+
+[sub_resource type="LabelSettings" id="LabelSettings_xtnlk"]
+font = ExtResource("1_gqqvf")
+font_size = 35
+
+[sub_resource type="LabelSettings" id="LabelSettings_ilbgr"]
+font = ExtResource("1_gqqvf")
+font_size = 20
+
+[node name="MainMenuScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7caq5")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -263.0
+offset_top = -2.0
+offset_right = 1474.0
+offset_bottom = 669.0
+texture = ExtResource("2_k70wr")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 669.0
+offset_top = 119.0
+offset_right = -100.0
+offset_bottom = -307.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.454902)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -464.0
+offset_top = -177.0
+offset_right = -103.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "DELIVERY GUY"
+label_settings = SubResource("LabelSettings_dg4oe")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -427.0
+offset_top = 29.0
+offset_right = -140.0
+offset_bottom = 159.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_group_ = true
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_gqqvf")
+theme_override_font_sizes/font_size = 25
+text = "START"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 5
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_gqqvf")
+theme_override_font_sizes/font_size = 25
+text = "QUIT"
+
+[node name="Info Panel" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 779.0
+offset_top = 129.0
+offset_right = 949.0
+offset_bottom = 270.0
+theme_override_constants/separation = 55
+metadata/_edit_group_ = true
+
+[node name="Hi Score" type="Label" parent="Info Panel"]
+layout_mode = 2
+text = "HIGH SCORE"
+label_settings = SubResource("LabelSettings_xtnlk")
+
+[node name="La Score" type="Label" parent="Info Panel"]
+layout_mode = 2
+text = "LAST SCORE"
+label_settings = SubResource("LabelSettings_xtnlk")
+
+[node name="Score Count" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 779.0
+offset_top = 174.0
+offset_right = 949.0
+offset_bottom = 315.0
+theme_override_constants/separation = 75
+metadata/_edit_group_ = true
+
+[node name="Highest" type="Label" parent="Score Count"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_ilbgr")
+horizontal_alignment = 1
+
+[node name="Latest" type="Label" parent="Score Count"]
+layout_mode = 2
+text = "0"
+label_settings = SubResource("LabelSettings_ilbgr")
+horizontal_alignment = 1
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="."]
+bus = &"SFX"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 631.0
+offset_top = 252.0
+offset_right = 1085.0
+offset_bottom = 706.0
+texture = ExtResource("4_58p5x")
+expand_mode = 1
+
+[connection signal="button_down" from="VBoxContainer/Start" to="." method="_on_start_button_down"]
+[connection signal="mouse_entered" from="VBoxContainer/Start" to="." method="_on_start_mouse_entered"]
+[connection signal="button_down" from="VBoxContainer/Quit" to="." method="_on_quit_button_down"]
+[connection signal="mouse_entered" from="VBoxContainer/Quit" to="." method="_on_quit_mouse_entered"]

@@ -1,0 +1,228 @@
+[gd_scene load_steps=49 format=3 uid="uid://dcjep3mykbt42"]
+
+[ext_resource type="Texture2D" uid="uid://cnem5hayae4q6" path="res://Asset/Ervin Idle Update/0000.png" id="1_504sp"]
+[ext_resource type="Script" path="res://Scene/Deliver Man.gd" id="1_v65lu"]
+[ext_resource type="Texture2D" uid="uid://x2mm00b1mwkq" path="res://Asset/Ervin Idle Update/0001.png" id="2_hddis"]
+[ext_resource type="Texture2D" uid="uid://bvvih73ku7dhv" path="res://Asset/Ervin Idle Update/0002.png" id="3_m8c0k"]
+[ext_resource type="Texture2D" uid="uid://cjec1b1yi67vc" path="res://Asset/Ervin Idle Update/0003.png" id="4_o6unf"]
+[ext_resource type="Texture2D" uid="uid://dk8xicksdyshl" path="res://Asset/Ervin Idle Update/0004.png" id="5_o24r8"]
+[ext_resource type="Texture2D" uid="uid://nll4u15oevgx" path="res://Asset/Ervin Idle Update/0005.png" id="6_djfyj"]
+[ext_resource type="Texture2D" uid="uid://cdftb0hd4alo5" path="res://Asset/Ervin Idle Update/0006.png" id="7_xd5po"]
+[ext_resource type="Texture2D" uid="uid://d27jeoqteu0uo" path="res://Asset/Ervin Idle Update/0007.png" id="8_jw7bj"]
+[ext_resource type="Texture2D" uid="uid://bghed57674pvt" path="res://Asset/Ervin Idle Update/0008.png" id="9_gn52o"]
+[ext_resource type="Texture2D" uid="uid://xtphbstrhlvj" path="res://Asset/Ervin Idle Update/0009.png" id="10_4ajci"]
+[ext_resource type="Texture2D" uid="uid://duquvu3kfqsqn" path="res://Asset/Ervin Idle Update/0010.png" id="11_tksmn"]
+[ext_resource type="Texture2D" uid="uid://dlx1j6ecuy27h" path="res://Asset/Ervin Idle Update/0011.png" id="12_ynl8r"]
+[ext_resource type="Texture2D" uid="uid://g3k2ltgxkyfp" path="res://Asset/Ervin Idle Update/0012.png" id="13_lee7f"]
+[ext_resource type="Texture2D" uid="uid://bgj686k4i05j" path="res://Asset/Ervin Idle Update/0013.png" id="14_rvilb"]
+[ext_resource type="Texture2D" uid="uid://dwbwrqbu8sprx" path="res://Asset/Ervin Idle Update/0014.png" id="15_it188"]
+[ext_resource type="Texture2D" uid="uid://ilqhyl1khnk" path="res://Asset/Ervin Idle Update/0015.png" id="16_j6ihl"]
+[ext_resource type="Texture2D" uid="uid://1eg6hmcg8k3m" path="res://Asset/Ervin Idle Update/0016.png" id="17_axk1k"]
+[ext_resource type="Texture2D" uid="uid://c43fd1j17j5h7" path="res://Asset/Ervin Idle Update/0017.png" id="18_6arjl"]
+[ext_resource type="Texture2D" uid="uid://cnmbb7dbjq7vh" path="res://Asset/Ervin Idle Update/0018.png" id="19_blj4l"]
+[ext_resource type="Texture2D" uid="uid://ytoam3uvxi8b" path="res://Asset/Ervin Idle Update/0019.png" id="20_qhf4a"]
+[ext_resource type="Texture2D" uid="uid://d0ejlwla1lwkr" path="res://Asset/Ervin Idle Update/0020.png" id="21_cqncx"]
+[ext_resource type="Texture2D" uid="uid://culf73rnwdlx" path="res://Asset/Ervin Idle Update/0021.png" id="22_gq1we"]
+[ext_resource type="Texture2D" uid="uid://bx05fxj2muvga" path="res://Asset/Ervin Idle Update/0022.png" id="23_c7wi8"]
+[ext_resource type="Texture2D" uid="uid://cn3ijhhs5a6bo" path="res://Asset/Ervin Idle Update/0023.png" id="24_jn2ir"]
+[ext_resource type="Texture2D" uid="uid://cpkh2disb5kiy" path="res://Asset/Ervin Run Update/0000.png" id="25_d4n8p"]
+[ext_resource type="Texture2D" uid="uid://c4wy3fcg6iewj" path="res://Asset/Ervin Run Update/0001.png" id="26_xlebm"]
+[ext_resource type="Texture2D" uid="uid://qibhvw6arca2" path="res://Asset/Ervin Run Update/0002.png" id="27_3ak3x"]
+[ext_resource type="Texture2D" uid="uid://dq8iba7fywlh6" path="res://Asset/Ervin Run Update/0003.png" id="28_70k6f"]
+[ext_resource type="Texture2D" uid="uid://dbtc73brirmn8" path="res://Asset/Ervin Run Update/0004.png" id="29_ljf7y"]
+[ext_resource type="Texture2D" uid="uid://bow7lgc4hi03d" path="res://Asset/Ervin Run Update/0006.png" id="30_freiq"]
+[ext_resource type="Texture2D" uid="uid://c2mxo2tuf5a4b" path="res://Asset/Ervin Run Update/0007.png" id="31_vmv4c"]
+[ext_resource type="Texture2D" uid="uid://blkygjr5w4j8y" path="res://Asset/Ervin Run Update/0008.png" id="32_qxg03"]
+[ext_resource type="Texture2D" uid="uid://duujf25yfkqm1" path="res://Asset/Ervin Run Update/0009.png" id="33_v1xtd"]
+[ext_resource type="Texture2D" uid="uid://btk0emx3hefuc" path="res://Asset/Ervin Run Update/0010.png" id="34_4laak"]
+[ext_resource type="Texture2D" uid="uid://31lededtdkl2" path="res://Asset/Ervin Run Update/0011.png" id="35_cmtf4"]
+[ext_resource type="Texture2D" uid="uid://dges2f2x140s5" path="res://Asset/Wooden Box.png" id="37_xiq71"]
+[ext_resource type="FontFile" uid="uid://bkcr7kulhnqyb" path="res://Super Boys.ttf" id="38_n718k"]
+[ext_resource type="AudioStream" uid="uid://cbbf4tn7u8pyv" path="res://Asset/Sound/Foot Tile 1.mp3" id="39_y7btu"]
+[ext_resource type="Texture2D" uid="uid://c078imxup1ois" path="res://Asset/smoke_10.png" id="40_vcdcj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0muh7"]
+radius = 14.0
+height = 74.0
+
+[sub_resource type="Animation" id="Animation_p8d53"]
+resource_name = "Idle"
+length = 1.2
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.05, 1.1, 1.15),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_504sp"), ExtResource("2_hddis"), ExtResource("3_m8c0k"), ExtResource("4_o6unf"), ExtResource("5_o24r8"), ExtResource("6_djfyj"), ExtResource("7_xd5po"), ExtResource("8_jw7bj"), ExtResource("9_gn52o"), ExtResource("10_4ajci"), ExtResource("11_tksmn"), ExtResource("12_ynl8r"), ExtResource("13_lee7f"), ExtResource("14_rvilb"), ExtResource("15_it188"), ExtResource("16_j6ihl"), ExtResource("17_axk1k"), ExtResource("18_6arjl"), ExtResource("19_blj4l"), ExtResource("20_qhf4a"), ExtResource("21_cqncx"), ExtResource("22_gq1we"), ExtResource("23_c7wi8"), ExtResource("24_jn2ir")]
+}
+
+[sub_resource type="Animation" id="Animation_cjjbb"]
+resource_name = "Run"
+length = 0.55
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("25_d4n8p"), ExtResource("26_xlebm"), ExtResource("27_3ak3x"), ExtResource("28_70k6f"), ExtResource("29_ljf7y"), ExtResource("30_freiq"), ExtResource("31_vmv4c"), ExtResource("32_qxg03"), ExtResource("33_v1xtd"), ExtResource("34_4laak"), ExtResource("35_cmtf4")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.2, 0.45),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CPUParticles2D:emitting")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2, 0.45),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xp0tq"]
+_data = {
+"Idle": SubResource("Animation_p8d53"),
+"Run": SubResource("Animation_cjjbb")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_667o0"]
+font = ExtResource("38_n718k")
+font_size = 13
+
+[sub_resource type="LabelSettings" id="LabelSettings_s1k6o"]
+font = ExtResource("38_n718k")
+font_size = 40
+
+[sub_resource type="Curve" id="Curve_lwxq4"]
+_data = [Vector2(0, 0.592453), 0.0, 2.53507, 0, 0, Vector2(0.377863, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="Gradient_oyvph"]
+offsets = PackedFloat32Array(0.401786, 1)
+colors = PackedColorArray(0.994108, 0.994108, 0.994108, 1, 1, 1, 1, 0)
+
+[node name="Deliver" type="CharacterBody2D"]
+script = ExtResource("1_v65lu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 11)
+shape = SubResource("CapsuleShape2D_0muh7")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_xp0tq")
+}
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.90735e-06, -9.53674e-07)
+scale = Vector2(0.149219, 0.149219)
+texture = ExtResource("34_4laak")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+
+[node name="Paket" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -46)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("37_xiq71")
+
+[node name="Info Paket" type="Label" parent="."]
+offset_left = -4.0
+offset_top = -54.0
+offset_right = 4.0
+offset_bottom = -37.0
+label_settings = SubResource("LabelSettings_667o0")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Screen" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Point" type="Label" parent="CanvasLayer/Screen"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -35.0
+offset_top = 6.0
+offset_right = -13.0
+offset_bottom = 55.0
+grow_horizontal = 0
+text = "0"
+label_settings = SubResource("LabelSettings_s1k6o")
+horizontal_alignment = 2
+
+[node name="Time" type="Label" parent="CanvasLayer/Screen"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -11.0
+offset_top = 6.0
+offset_right = 11.0
+offset_bottom = 55.0
+grow_horizontal = 2
+text = "60"
+label_settings = SubResource("LabelSettings_s1k6o")
+horizontal_alignment = 2
+
+[node name="Timer" type="Timer" parent="CanvasLayer"]
+autostart = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("39_y7btu")
+volume_db = -6.303
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(20, 46)
+emitting = false
+lifetime = 0.2
+one_shot = true
+explosiveness = 1.0
+randomness = 0.5
+texture = ExtResource("40_vcdcj")
+emission_shape = 1
+emission_sphere_radius = 3.0
+direction = Vector2(0, 20)
+spread = 180.0
+initial_velocity_min = 27.03
+initial_velocity_max = 148.65
+scale_amount_min = 0.08
+scale_amount_max = 0.1
+scale_amount_curve = SubResource("Curve_lwxq4")
+color_ramp = SubResource("Gradient_oyvph")
+
+[connection signal="timeout" from="CanvasLayer/Timer" to="." method="_on_timer_timeout"]

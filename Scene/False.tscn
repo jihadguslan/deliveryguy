@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://3iqjw3uye4i6"]
+
+[ext_resource type="Texture2D" uid="uid://d3mdcsuu6vpd3" path="res://Asset/Dot.png" id="1_1dxgh"]
+
+[sub_resource type="Curve" id="Curve_skiah"]
+_data = [Vector2(0, 0.516981), 0.0, 0.0, 0, 0, Vector2(0.179389, 0.879245), 0.0, 0.0, 0, 0, Vector2(1, 0.516981), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="Gradient_6c0c1"]
+offsets = PackedFloat32Array(0, 0.660714, 1)
+colors = PackedColorArray(1, 0, 0.00784314, 0, 1, 0, 0.00784314, 1, 1, 0, 0.00784314, 0)
+
+[sub_resource type="GDScript" id="GDScript_gxsgx"]
+resource_name = "False"
+script/source = "extends CPUParticles2D
+
+func _ready():
+	emitting = true
+	await get_tree().create_timer(1).timeout
+	queue_free()
+"
+
+[node name="false" type="CPUParticles2D"]
+emitting = false
+amount = 15
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+randomness = 0.26
+texture = ExtResource("1_1dxgh")
+emission_shape = 3
+emission_rect_extents = Vector2(2, 2)
+direction = Vector2(0, 0)
+spread = 180.0
+gravity = Vector2(0, 300)
+initial_velocity_min = 62.49
+initial_velocity_max = 265.19
+scale_amount_min = 0.3
+scale_amount_max = 0.4
+scale_amount_curve = SubResource("Curve_skiah")
+color_ramp = SubResource("Gradient_6c0c1")
+script = SubResource("GDScript_gxsgx")
